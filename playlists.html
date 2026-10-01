@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>RHYTHMIC | Playlists</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+
+<body class="bg-gray-950 text-white">
+
+
+<!-- ================================================= -->
+<!-- NAVBAR -->
+<!-- ================================================= -->
+
+<nav class="border-b border-gray-800">
+
+    <div class="max-w-6xl mx-auto
+                px-6 py-4
+                flex items-center
+                justify-between">
+
+        <!-- LOGO -->
+
+        <a href="index.html"
+           class="text-3xl font-bold text-purple-400">
+
+            RHYTHMIC
+
+        </a>
+
+
+        <!-- DESKTOP NAVIGATION -->
+
+        <ul class="hidden lg:flex
+                   items-center
+                   space-x-6
+                   font-medium">
+
+            <li>
+                <a href="index.html"
+                   class="hover:text-purple-400">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="discover.html"
+                   class="hover:text-purple-400">
+                    Discover
+                </a>
+            </li>
+
+            <li>
+                <a href="library.html"
+                   class="hover:text-purple-400">
+                    Library
+                </a>
+            </li>
+
+            <li>
+                <a href="songs.html"
+                   class="hover:text-purple-400">
+                    Songs
+                </a>
+            </li>
+
+            <li>
+                <a href="artists.html"
+                   class="hover:text-purple-400">
+                    Artists
+                </a>
+            </li>
+
+            <li>
+                <a href="albums.html"
+                   class="hover:text-purple-400">
+                    Albums
+                </a>
+            </li>
+
+            <!-- ACTIVE PAGE -->
+
+            <li>
+                <a href="playlists.html"
+                   class="text-purple-400">
+                    Playlists
+                </a>
+            </li>
+
+        </ul>
+
+
+        <!-- PREMIUM -->
+
+        <a href="premium.html"
+           class="hidden lg:inline-block
+                  bg-purple-600
+                  hover:bg-purple-700
+                  px-5 py-2
+                  rounded-lg">
+
+            Go Premium
+
+        </a>
+
+
+        <!-- MOBILE BUTTON -->
+
+        <label for="menuToggle"
+               class="lg:hidden
+                      flex flex-col
+                      gap-1.5
+                      cursor-pointer">
+
+            <span class="w-6 h-0.5 bg-white"></span>
+
+            <span class="w-6 h-0.5 bg-white"></span>
+
+            <span class="w-6 h-0.5 bg-white"></span>
+
+        </label>
+
+    </div>
+
+
+    <!-- MOBILE MENU -->
+
+    <input type="checkbox"
+           id="menuToggle"
+           class="hidden peer">
+
+
+    <div class="hidden
+                peer-checked:block
+                lg:hidden
+                bg-gray-900
+                px-6 pb-6">
+
+        <div class="flex
+                    flex-col
+                    gap-4
+                    pt-4">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="discover.html">
+                Discover
+            </a>
+
+            <a href="library.html">
+                Library
+            </a>
+
+            <a href="songs.html">
+                Songs
+            </a>
+
+            <a href="artists.html">
+                Artists
+            </a>
+
+            <a href="albums.html">
+                Albums
+            </a>
+
+            <a href="playlists.html"
+               class="text-purple-400">
+                Playlists
+            </a>
+
+            <a href="premium.html"
+               class="bg-purple-600
+                      text-center
+                      px-5 py-2
+                      rounded-lg">
+
+                Go Premium
+
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 1 : HERO -->
+<!-- ================================================= -->
+
+<section class="py-20 px-6
+                bg-gradient-to-br
+                from-purple-950
+                to-gray-950">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <p class="text-purple-400
+                  font-semibold">
+
+            PLAYLISTS
+
+        </p>
+
+
+        <h1 class="text-5xl
+                   md:text-6xl
+                   font-bold
+                   mt-4">
+
+            Music that fits
+            your moment.
+
+        </h1>
+
+
+        <p class="text-gray-400
+                  text-lg
+                  max-w-2xl
+                  mt-6">
+
+            Discover playlists created
+            for every mood, activity
+            and moment.
+
+        </p>
+
+
+        <a href="songs.html"
+           class="inline-block
+                  mt-8
+                  bg-purple-600
+                  hover:bg-purple-700
+                  px-6 py-3
+                  rounded-lg">
+
+            Browse Songs
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 2 : FEATURED PLAYLIST -->
+<!-- ================================================= -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <p class="text-purple-400
+                  font-semibold">
+
+            FEATURED PLAYLIST
+
+        </p>
+
+
+        <div class="mt-6
+                    bg-gray-900
+                    rounded-2xl
+                    p-8
+                    md:p-10
+                    flex
+                    flex-col
+                    md:flex-row
+                    gap-8
+                    items-center">
+
+
+            <div class="w-52 h-52
+                        bg-gradient-to-br
+                        from-purple-600
+                        to-pink-600
+                        rounded-xl
+                        flex
+                        items-center
+                        justify-center
+                        text-6xl">
+
+                ♫
+
+            </div>
+
+
+            <div>
+
+                <p class="text-gray-400">
+                    RHYTHMIC ORIGINAL
+                </p>
+
+
+                <h2 class="text-4xl
+                           font-bold
+                           mt-2">
+
+                    Today's Mix
+
+                </h2>
+
+
+                <p class="text-gray-400
+                          mt-4
+                          max-w-xl">
+
+                    A carefully selected mix
+                    of popular songs and fresh
+                    discoveries for your day.
+
+                </p>
+
+
+                <a href="#"
+                   class="inline-block
+                          mt-6
+                          bg-purple-600
+                          px-6 py-3
+                          rounded-lg">
+
+                    Play Playlist
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 3 : MOOD PLAYLISTS -->
+<!-- ================================================= -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <p class="text-purple-400
+                  font-semibold">
+
+            BY MOOD
+
+        </p>
+
+
+        <h2 class="text-3xl
+                   font-bold
+                   mt-2
+                   mb-8">
+
+            How are you feeling?
+
+        </h2>
+
+
+        <div class="grid
+                    grid-cols-2
+                    md:grid-cols-4
+                    gap-4">
+
+
+            <a href="#"
+               class="bg-purple-700
+                      p-8
+                      rounded-xl
+                      hover:bg-purple-600">
+
+                <span class="text-3xl">
+                    ☀
+                </span>
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-4">
+
+                    Happy
+
+                </h3>
+
+                <p class="text-purple-200 mt-2">
+                    Feel-good songs
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-blue-700
+                      p-8
+                      rounded-xl
+                      hover:bg-blue-600">
+
+                <span class="text-3xl">
+                    ☁
+                </span>
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-4">
+
+                    Chill
+
+                </h3>
+
+                <p class="text-blue-200 mt-2">
+                    Relaxing music
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-pink-700
+                      p-8
+                      rounded-xl
+                      hover:bg-pink-600">
+
+                <span class="text-3xl">
+                    ♡
+                </span>
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-4">
+
+                    Love
+
+                </h3>
+
+                <p class="text-pink-200 mt-2">
+                    Romantic songs
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-orange-700
+                      p-8
+                      rounded-xl
+                      hover:bg-orange-600">
+
+                <span class="text-3xl">
+                    ⚡
+                </span>
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-4">
+
+                    Energy
+
+                </h3>
+
+                <p class="text-orange-200 mt-2">
+                    High-energy music
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 4 : ACTIVITY PLAYLISTS -->
+<!-- ================================================= -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <p class="text-purple-400
+                  font-semibold">
+
+            BY ACTIVITY
+
+        </p>
+
+
+        <h2 class="text-3xl
+                   font-bold
+                   mt-2
+                   mb-8">
+
+            Playlists for your day
+
+        </h2>
+
+
+        <div class="grid
+                    md:grid-cols-3
+                    gap-6">
+
+
+            <a href="#"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl
+                      hover:bg-gray-800">
+
+                <div class="h-32
+                            bg-purple-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-5xl">
+
+                    ☕
+                </div>
+
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-5">
+
+                    Morning Coffee
+
+                </h3>
+
+
+                <p class="text-gray-400 mt-2">
+
+                    Start your morning
+                    with calm sounds.
+
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl
+                      hover:bg-gray-800">
+
+                <div class="h-32
+                            bg-pink-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-5xl">
+
+                    ⚡
+
+                </div>
+
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-5">
+
+                    Workout Energy
+
+                </h3>
+
+
+                <p class="text-gray-400 mt-2">
+
+                    High-energy tracks
+                    for your workout.
+
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl
+                      hover:bg-gray-800">
+
+                <div class="h-32
+                            bg-blue-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-5xl">
+
+                    🌙
+
+                </div>
+
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-5">
+
+                    Late Night
+
+                </h3>
+
+
+                <p class="text-gray-400 mt-2">
+
+                    Music for quiet
+                    late-night moments.
+
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 5 : GENRE PLAYLISTS -->
+<!-- ================================================= -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <div class="flex
+                    justify-between
+                    items-center
+                    mb-8">
+
+            <div>
+
+                <p class="text-purple-400
+                          font-semibold">
+
+                    BY GENRE
+
+                </p>
+
+
+                <h2 class="text-3xl
+                           font-bold
+                           mt-2">
+
+                    Explore your sound
+
+                </h2>
+
+            </div>
+
+
+            <a href="albums.html"
+               class="text-purple-400">
+
+                Albums →
+
+            </a>
+
+        </div>
+
+
+        <div class="grid
+                    grid-cols-2
+                    md:grid-cols-4
+                    gap-4">
+
+
+            <a href="#"
+               class="bg-gray-950
+                      border
+                      border-gray-800
+                      p-6
+                      rounded-xl
+                      hover:border-purple-500">
+
+                <h3 class="font-bold
+                           text-xl">
+
+                    Pop
+
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    50+ playlists
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-950
+                      border
+                      border-gray-800
+                      p-6
+                      rounded-xl
+                      hover:border-purple-500">
+
+                <h3 class="font-bold
+                           text-xl">
+
+                    R&B
+
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    40+ playlists
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-950
+                      border
+                      border-gray-800
+                      p-6
+                      rounded-xl
+                      hover:border-purple-500">
+
+                <h3 class="font-bold
+                           text-xl">
+
+                    Hip-Hop
+
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    45+ playlists
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-950
+                      border
+                      border-gray-800
+                      p-6
+                      rounded-xl
+                      hover:border-purple-500">
+
+                <h3 class="font-bold
+                           text-xl">
+
+                    Indie
+
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    30+ playlists
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 6 : ARTIST PLAYLISTS -->
+<!-- ================================================= -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <div class="flex
+                    justify-between
+                    items-center
+                    mb-8">
+
+            <h2 class="text-3xl
+                       font-bold">
+
+                Artist playlists
+
+            </h2>
+
+
+            <a href="artists.html"
+               class="text-purple-400">
+
+                View Artists →
+
+            </a>
+
+        </div>
+
+
+        <div class="grid
+                    md:grid-cols-3
+                    gap-6">
+
+
+            <a href="#"
+               class="bg-gray-900
+                      rounded-xl
+                      p-6
+                      hover:bg-gray-800">
+
+                <div class="h-32
+                            bg-purple-700
+                            rounded-lg
+                            flex
+                            items-center
+                            justify-center
+                            text-4xl">
+
+                    TS
+
+                </div>
+
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-4">
+
+                    Taylor Swift Essentials
+
+                </h3>
+
+
+                <p class="text-gray-400 mt-2">
+                    Best of Taylor Swift
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-900
+                      rounded-xl
+                      p-6
+                      hover:bg-gray-800">
+
+                <div class="h-32
+                            bg-pink-700
+                            rounded-lg
+                            flex
+                            items-center
+                            justify-center
+                            text-4xl">
+
+                    BE
+
+                </div>
+
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-4">
+
+                    Billie Eilish Essentials
+
+                </h3>
+
+
+                <p class="text-gray-400 mt-2">
+                    Best of Billie Eilish
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-900
+                      rounded-xl
+                      p-6
+                      hover:bg-gray-800">
+
+                <div class="h-32
+                            bg-blue-700
+                            rounded-lg
+                            flex
+                            items-center
+                            justify-center
+                            text-4xl">
+
+                    TW
+
+                </div>
+
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-4">
+
+                    The Weeknd Essentials
+
+                </h3>
+
+
+                <p class="text-gray-400 mt-2">
+                    Best of The Weeknd
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 7 : YOUR LIBRARY -->
+<!-- ================================================= -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <div class="bg-gradient-to-r
+                    from-purple-900
+                    to-gray-800
+                    rounded-2xl
+                    p-10">
+
+
+            <p class="text-purple-300
+                      font-semibold">
+
+                YOUR MUSIC
+
+            </p>
+
+
+            <h2 class="text-4xl
+                       font-bold
+                       mt-3">
+
+                Build your own collection.
+
+            </h2>
+
+
+            <p class="text-gray-400
+                      max-w-xl
+                      mt-4">
+
+                Save your favorite playlists
+                and keep everything you love
+                in one place.
+
+            </p>
+
+
+            <a href="library.html"
+               class="inline-block
+                      mt-6
+                      bg-purple-600
+                      px-6 py-3
+                      rounded-lg">
+
+                Open Library
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 8 : CTA -->
+<!-- ================================================= -->
+
+<section class="py-20 px-6">
+
+    <div class="max-w-6xl mx-auto
+                text-center">
+
+
+        <p class="text-purple-400
+                  font-semibold">
+
+            KEEP LISTENING
+
+        </p>
+
+
+        <h2 class="text-4xl
+                   font-bold
+                   mt-3">
+
+            Your next playlist
+            is waiting.
+
+        </h2>
+
+
+        <p class="text-gray-400 mt-4">
+
+            Discover music that matches
+            your moment.
+
+        </p>
+
+
+        <a href="discover.html"
+           class="inline-block
+                  mt-6
+                  bg-purple-600
+                  hover:bg-purple-700
+                  px-6 py-3
+                  rounded-lg">
+
+            Discover Music
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FOOTER -->
+<!-- ================================================= -->
+
+<footer class="border-t border-gray-800">
+
+    <div class="max-w-6xl mx-auto
+                px-6 py-10">
+
+
+        <div class="grid
+                    md:grid-cols-4
+                    gap-8">
+
+
+            <div>
+
+                <h2 class="text-2xl
+                           font-bold
+                           text-purple-400">
+
+                    RHYTHMIC
+
+                </h2>
+
+                <p class="text-gray-400 mt-3">
+
+                    Music for every mood.
+
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Explore
+                </h3>
+
+                <div class="flex
+                            flex-col
+                            gap-2
+                            mt-3">
+
+                    <a href="songs.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Songs
+                    </a>
+
+                    <a href="artists.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Artists
+                    </a>
+
+                    <a href="albums.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Albums
+                    </a>
+
+                    <a href="playlists.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Playlists
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Company
+                </h3>
+
+                <div class="flex
+                            flex-col
+                            gap-2
+                            mt-3">
+
+                    <a href="about.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        About
+                    </a>
+
+                    <a href="careers.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Careers
+                    </a>
+
+                    <a href="contact.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Support
+                </h3>
+
+                <div class="flex
+                            flex-col
+                            gap-2
+                            mt-3">
+
+                    <a href="help.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Help Center
+                    </a>
+
+                    <a href="premium.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Premium
+                    </a>
+
+                    <a href="events.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Events
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <p class="text-center
+                  text-gray-500
+                  border-t
+                  border-gray-800
+                  mt-8
+                  pt-6">
+
+            © 2026 RHYTHMIC.
+            All rights reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>

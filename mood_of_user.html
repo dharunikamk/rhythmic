@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>RHYTHMIC | Mood</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+
+<body class="bg-gray-950 text-white">
+
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="border-b border-gray-800">
+
+    <div class="max-w-6xl mx-auto px-6 py-4
+                flex items-center justify-between">
+
+        <a href="index.html"
+           class="text-3xl font-bold text-purple-400">
+            RHYTHMIC
+        </a>
+
+
+        <ul class="hidden lg:flex items-center
+                   space-x-6 font-medium">
+
+            <li><a href="index.html"
+                   class="hover:text-purple-400">Home</a></li>
+
+            <li><a href="discover.html"
+                   class="hover:text-purple-400">Discover</a></li>
+
+            <li><a href="library.html"
+                   class="hover:text-purple-400">Library</a></li>
+
+            <li><a href="songs.html"
+                   class="hover:text-purple-400">Songs</a></li>
+
+            <li><a href="artists.html"
+                   class="hover:text-purple-400">Artists</a></li>
+
+            <li><a href="albums.html"
+                   class="hover:text-purple-400">Albums</a></li>
+
+            <li><a href="playlists.html"
+                   class="hover:text-purple-400">Playlists</a></li>
+
+        </ul>
+
+
+        <a href="premium.html"
+           class="hidden lg:inline-block
+                  bg-purple-600 hover:bg-purple-700
+                  px-5 py-2 rounded-lg">
+
+            Go Premium
+
+        </a>
+
+
+        <label for="menuToggle"
+               class="lg:hidden flex flex-col
+                      gap-1.5 cursor-pointer">
+
+            <span class="w-6 h-0.5 bg-white"></span>
+            <span class="w-6 h-0.5 bg-white"></span>
+            <span class="w-6 h-0.5 bg-white"></span>
+
+        </label>
+
+    </div>
+
+
+    <input type="checkbox"
+           id="menuToggle"
+           class="hidden peer">
+
+
+    <div class="hidden peer-checked:block
+                lg:hidden bg-gray-900
+                px-6 pb-6">
+
+        <div class="flex flex-col gap-4 pt-4">
+
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="library.html">Library</a>
+            <a href="songs.html">Songs</a>
+            <a href="artists.html">Artists</a>
+            <a href="albums.html">Albums</a>
+            <a href="playlists.html">Playlists</a>
+
+            <a href="premium.html"
+               class="bg-purple-600 text-center
+                      px-5 py-2 rounded-lg">
+
+                Go Premium
+
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- ================= FRAME 1 ================= -->
+
+<section class="py-20 px-6
+                bg-gradient-to-br
+                from-purple-950
+                to-gray-950">
+
+    <div class="max-w-6xl mx-auto">
+
+        <p class="text-purple-400 font-semibold">
+            MUSIC FOR YOUR MOOD
+        </p>
+
+        <h1 class="text-5xl md:text-6xl
+                   font-bold mt-4">
+
+            How are you
+            feeling today?
+
+        </h1>
+
+        <p class="text-gray-400 text-lg
+                  max-w-2xl mt-6">
+
+            Choose a mood and let RHYTHMIC
+            find the right sound for you.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 2 ================= -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+        <h2 class="text-3xl font-bold mb-8">
+            Popular moods
+        </h2>
+
+
+        <div class="grid grid-cols-2
+                    md:grid-cols-4 gap-5">
+
+            <a href="#"
+               class="bg-purple-700 p-8
+                      rounded-xl
+                      hover:bg-purple-600">
+
+                <div class="text-4xl">😊</div>
+
+                <h3 class="text-2xl
+                           font-bold mt-5">
+
+                    Happy
+
+                </h3>
+
+                <p class="text-purple-200 mt-2">
+                    Feel-good music
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-blue-700 p-8
+                      rounded-xl
+                      hover:bg-blue-600">
+
+                <div class="text-4xl">🌙</div>
+
+                <h3 class="text-2xl
+                           font-bold mt-5">
+
+                    Calm
+
+                </h3>
+
+                <p class="text-blue-200 mt-2">
+                    Slow and peaceful
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-pink-700 p-8
+                      rounded-xl
+                      hover:bg-pink-600">
+
+                <div class="text-4xl">❤️</div>
+
+                <h3 class="text-2xl
+                           font-bold mt-5">
+
+                    Love
+
+                </h3>
+
+                <p class="text-pink-200 mt-2">
+                    Romantic songs
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-orange-700 p-8
+                      rounded-xl
+                      hover:bg-orange-600">
+
+                <div class="text-4xl">🔥</div>
+
+                <h3 class="text-2xl
+                           font-bold mt-5">
+
+                    Energy
+
+                </h3>
+
+                <p class="text-orange-200 mt-2">
+                    High-energy music
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 3 ================= -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+        <p class="text-purple-400 font-semibold">
+            FOR YOUR DAY
+        </p>
+
+        <h2 class="text-3xl font-bold mt-2 mb-8">
+            Music for every moment
+        </h2>
+
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <a href="playlists.html"
+               class="bg-gray-950 p-7 rounded-xl">
+
+                <h3 class="text-xl font-bold">
+                    Morning
+                </h3>
+
+                <p class="text-gray-400 mt-3">
+                    Start your day with
+                    positive sounds.
+                </p>
+
+            </a>
+
+
+            <a href="playlists.html"
+               class="bg-gray-950 p-7 rounded-xl">
+
+                <h3 class="text-xl font-bold">
+                    Study
+                </h3>
+
+                <p class="text-gray-400 mt-3">
+                    Focus with calm
+                    instrumental music.
+                </p>
+
+            </a>
+
+
+            <a href="playlists.html"
+               class="bg-gray-950 p-7 rounded-xl">
+
+                <h3 class="text-xl font-bold">
+                    Night
+                </h3>
+
+                <p class="text-gray-400 mt-3">
+                    Slow down with
+                    relaxing sounds.
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 4 ================= -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+        <h2 class="text-3xl font-bold mb-8">
+            Feeling energetic?
+        </h2>
+
+
+        <div class="bg-gradient-to-r
+                    from-purple-900
+                    to-gray-800
+                    rounded-2xl
+                    p-10">
+
+            <p class="text-purple-300
+                      font-semibold">
+
+                TURN IT UP
+
+            </p>
+
+            <h3 class="text-4xl font-bold mt-3">
+                Your energy playlist
+            </h3>
+
+            <p class="text-gray-400
+                      max-w-xl mt-4">
+
+                Powerful beats and
+                energetic tracks to
+                keep you moving.
+
+            </p>
+
+            <a href="playlists.html"
+               class="inline-block
+                      mt-6
+                      bg-purple-600
+                      px-6 py-3
+                      rounded-lg">
+
+                Listen Now
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 5 ================= -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+        <h2 class="text-3xl font-bold mb-8">
+            Relax & unwind
+        </h2>
+
+
+        <div class="space-y-4">
+
+            <a href="songs.html"
+               class="flex justify-between
+                      items-center
+                      bg-gray-950
+                      p-5 rounded-xl">
+
+                <div>
+
+                    <h3 class="font-bold">
+                        Ocean Eyes
+                    </h3>
+
+                    <p class="text-gray-400 text-sm">
+                        Billie Eilish
+                    </p>
+
+                </div>
+
+                <span class="text-purple-400">
+                    ▶
+                </span>
+
+            </a>
+
+
+            <a href="songs.html"
+               class="flex justify-between
+                      items-center
+                      bg-gray-950
+                      p-5 rounded-xl">
+
+                <div>
+
+                    <h3 class="font-bold">
+                        Until I Found You
+                    </h3>
+
+                    <p class="text-gray-400 text-sm">
+                        Stephen Sanchez
+                    </p>
+
+                </div>
+
+                <span class="text-purple-400">
+                    ▶
+                </span>
+
+            </a>
+
+
+            <a href="songs.html"
+               class="flex justify-between
+                      items-center
+                      bg-gray-950
+                      p-5 rounded-xl">
+
+                <div>
+
+                    <h3 class="font-bold">
+                        Perfect
+                    </h3>
+
+                    <p class="text-gray-400 text-sm">
+                        Ed Sheeran
+                    </p>
+
+                </div>
+
+                <span class="text-purple-400">
+                    ▶
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 6 ================= -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+        <p class="text-purple-400 font-semibold">
+            EXPLORE
+        </p>
+
+        <h2 class="text-3xl font-bold mt-2 mb-8">
+            More ways to discover
+        </h2>
+
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <a href="genres.html"
+               class="bg-gray-900 p-7
+                      rounded-xl">
+
+                <h3 class="text-xl font-bold">
+                    Genres
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Explore different sounds.
+                </p>
+
+            </a>
+
+
+            <a href="trending.html"
+               class="bg-gray-900 p-7
+                      rounded-xl">
+
+                <h3 class="text-xl font-bold">
+                    Trending
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Listen to what's popular.
+                </p>
+
+            </a>
+
+
+            <a href="new-releases.html"
+               class="bg-gray-900 p-7
+                      rounded-xl">
+
+                <h3 class="text-xl font-bold">
+                    New Releases
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Hear the latest music.
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 7 ================= -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+        <div class="text-center">
+
+            <p class="text-purple-400 font-semibold">
+                YOUR MUSIC
+            </p>
+
+            <h2 class="text-4xl font-bold mt-3">
+                Music understands you.
+            </h2>
+
+            <p class="text-gray-400
+                      max-w-xl mx-auto mt-4">
+
+                From quiet evenings to
+                energetic mornings,
+                RHYTHMIC has a sound
+                for every moment.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 8 ================= -->
+
+<section class="py-20 px-6">
+
+    <div class="max-w-6xl mx-auto text-center">
+
+        <h2 class="text-4xl font-bold">
+            Find your mood.
+            Find your music.
+        </h2>
+
+        <a href="discover.html"
+           class="inline-block
+                  mt-6
+                  bg-purple-600
+                  hover:bg-purple-700
+                  px-6 py-3
+                  rounded-lg">
+
+            Start Discovering
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="border-t border-gray-800">
+
+    <div class="max-w-6xl mx-auto
+                px-6 py-10">
+
+        <div class="grid md:grid-cols-4 gap-8">
+
+            <div>
+
+                <h2 class="text-2xl
+                           font-bold
+                           text-purple-400">
+
+                    RHYTHMIC
+
+                </h2>
+
+                <p class="text-gray-400 mt-3">
+                    Music for every mood.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Explore
+                </h3>
+
+                <div class="flex flex-col gap-2 mt-3">
+
+                    <a href="songs.html"
+                       class="text-gray-400">
+                        Songs
+                    </a>
+
+                    <a href="artists.html"
+                       class="text-gray-400">
+                        Artists
+                    </a>
+
+                    <a href="albums.html"
+                       class="text-gray-400">
+                        Albums
+                    </a>
+
+                    <a href="playlists.html"
+                       class="text-gray-400">
+                        Playlists
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Company
+                </h3>
+
+                <div class="flex flex-col gap-2 mt-3">
+
+                    <a href="about.html"
+                       class="text-gray-400">
+                        About
+                    </a>
+
+                    <a href="careers.html"
+                       class="text-gray-400">
+                        Careers
+                    </a>
+
+                    <a href="contact.html"
+                       class="text-gray-400">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Support
+                </h3>
+
+                <div class="flex flex-col gap-2 mt-3">
+
+                    <a href="help.html"
+                       class="text-gray-400">
+                        Help Center
+                    </a>
+
+                    <a href="premium.html"
+                       class="text-gray-400">
+                        Premium
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <p class="text-center text-gray-500
+                  border-t border-gray-800
+                  mt-8 pt-6">
+
+            © 2026 RHYTHMIC.
+            All rights reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>

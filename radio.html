@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>RHYTHMIC | Radio</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+
+<body class="bg-gray-950 text-white">
+
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="border-b border-gray-800">
+
+    <div class="max-w-6xl mx-auto px-6 py-4
+                flex items-center justify-between">
+
+        <a href="index.html"
+           class="text-3xl font-bold text-purple-400">
+            RHYTHMIC
+        </a>
+
+
+        <ul class="hidden lg:flex
+                   items-center space-x-6
+                   font-medium">
+
+            <li><a href="index.html"
+                   class="hover:text-purple-400">
+                Home
+            </a></li>
+
+            <li><a href="discover.html"
+                   class="hover:text-purple-400">
+                Discover
+            </a></li>
+
+            <li><a href="library.html"
+                   class="hover:text-purple-400">
+                Library
+            </a></li>
+
+            <li><a href="songs.html"
+                   class="hover:text-purple-400">
+                Songs
+            </a></li>
+
+            <li><a href="artists.html"
+                   class="hover:text-purple-400">
+                Artists
+            </a></li>
+
+            <li><a href="albums.html"
+                   class="hover:text-purple-400">
+                Albums
+            </a></li>
+
+            <li><a href="playlists.html"
+                   class="hover:text-purple-400">
+                Playlists
+            </a></li>
+
+        </ul>
+
+
+        <a href="premium.html"
+           class="hidden lg:inline-block
+                  bg-purple-600
+                  px-5 py-2 rounded-lg">
+
+            Go Premium
+
+        </a>
+
+
+        <label for="menuToggle"
+               class="lg:hidden flex
+                      flex-col gap-1.5">
+
+            <span class="w-6 h-0.5 bg-white"></span>
+            <span class="w-6 h-0.5 bg-white"></span>
+            <span class="w-6 h-0.5 bg-white"></span>
+
+        </label>
+
+    </div>
+
+
+    <input type="checkbox"
+           id="menuToggle"
+           class="hidden peer">
+
+
+    <div class="hidden peer-checked:block
+                lg:hidden bg-gray-900
+                px-6 pb-6">
+
+        <div class="flex flex-col gap-4 pt-4">
+
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="library.html">Library</a>
+            <a href="songs.html">Songs</a>
+            <a href="artists.html">Artists</a>
+            <a href="albums.html">Albums</a>
+            <a href="playlists.html">Playlists</a>
+
+            <a href="premium.html"
+               class="bg-purple-600 text-center
+                      px-5 py-2 rounded-lg">
+
+                Go Premium
+
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- ================= FRAME 1 ================= -->
+
+<section class="py-20 px-6
+                bg-gradient-to-br
+                from-purple-950
+                to-gray-950">
+
+    <div class="max-w-6xl mx-auto">
+
+        <p class="text-purple-400 font-semibold">
+            RHYTHMIC RADIO
+        </p>
+
+        <h1 class="text-5xl md:text-6xl
+                   font-bold mt-4">
+
+            Press play.
+            Let the music flow.
+
+        </h1>
+
+        <p class="text-gray-400
+                  text-lg max-w-2xl mt-6">
+
+            Discover continuous music
+            based on artists, genres and
+            moods you love.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 2 ================= -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+        <h2 class="text-3xl font-bold mb-8">
+            Radio stations
+        </h2>
+
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <a href="#"
+               class="bg-purple-800
+                      p-8 rounded-xl">
+
+                <div class="text-5xl">
+                    ▶
+                </div>
+
+                <h3 class="text-2xl
+                           font-bold mt-6">
+
+                    Pop Radio
+
+                </h3>
+
+                <p class="text-purple-200 mt-2">
+                    Today's pop sounds
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-blue-800
+                      p-8 rounded-xl">
+
+                <div class="text-5xl">
+                    ▶
+                </div>
+
+                <h3 class="text-2xl
+                           font-bold mt-6">
+
+                    Chill Radio
+
+                </h3>
+
+                <p class="text-blue-200 mt-2">
+                    Relaxing music
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-pink-800
+                      p-8 rounded-xl">
+
+                <div class="text-5xl">
+                    ▶
+                </div>
+
+                <h3 class="text-2xl
+                           font-bold mt-6">
+
+                    Hip-Hop Radio
+
+                </h3>
+
+                <p class="text-pink-200 mt-2">
+                    Beats and flow
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 3 ================= -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+        <p class="text-purple-400 font-semibold">
+            ARTIST RADIO
+        </p>
+
+        <h2 class="text-3xl font-bold mt-2 mb-8">
+            Start with an artist
+        </h2>
+
+
+        <div class="space-y-4">
+
+            <a href="artists.html"
+               class="flex justify-between
+                      items-center
+                      bg-gray-950
+                      p-5 rounded-xl">
+
+                <div>
+
+                    <h3 class="font-bold">
+                        Taylor Swift Radio
+                    </h3>
+
+                    <p class="text-gray-400 text-sm">
+                        Taylor Swift and similar artists
+                    </p>
+
+                </div>
+
+                <span class="text-purple-400">
+                    ▶
+                </span>
+
+            </a>
+
+
+            <a href="artists.html"
+               class="flex justify-between
+                      items-center
+                      bg-gray-950
+                      p-5 rounded-xl">
+
+                <div>
+
+                    <h3 class="font-bold">
+                        The Weeknd Radio
+                    </h3>
+
+                    <p class="text-gray-400 text-sm">
+                        The Weeknd and similar artists
+                    </p>
+
+                </div>
+
+                <span class="text-purple-400">
+                    ▶
+                </span>
+
+            </a>
+
+
+            <a href="artists.html"
+               class="flex justify-between
+                      items-center
+                      bg-gray-950
+                      p-5 rounded-xl">
+
+                <div>
+
+                    <h3 class="font-bold">
+                        Billie Eilish Radio
+                    </h3>
+
+                    <p class="text-gray-400 text-sm">
+                        Billie Eilish and similar artists
+                    </p>
+
+                </div>
+
+                <span class="text-purple-400">
+                    ▶
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 4 ================= -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+        <div class="bg-gray-900
+                    rounded-2xl
+                    p-10">
+
+            <p class="text-purple-400
+                      font-semibold">
+
+                NOW PLAYING
+
+            </p>
+
+            <h2 class="text-4xl font-bold mt-3">
+                Radio Mix
+            </h2>
+
+            <p class="text-gray-400 mt-3">
+                A continuous mix selected
+                for your listening session.
+            </p>
+
+
+            <div class="mt-8
+                        bg-gray-950
+                        rounded-xl
+                        p-6
+                        flex items-center
+                        justify-between">
+
+                <div>
+
+                    <h3 class="font-bold">
+                        Current Mix
+                    </h3>
+
+                    <p class="text-gray-400 text-sm">
+                        RHYTHMIC Radio
+                    </p>
+
+                </div>
+
+                <button
+                    class="bg-purple-600
+                           px-5 py-3
+                           rounded-full">
+
+                    ▶ Play
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 5 ================= -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+        <h2 class="text-3xl font-bold mb-8">
+            Popular radio mixes
+        </h2>
+
+
+        <div class="grid md:grid-cols-4 gap-5">
+
+            <a href="#"
+               class="bg-gray-950 p-6 rounded-xl">
+
+                <h3 class="font-bold">
+                    Morning Mix
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Start fresh
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-950 p-6 rounded-xl">
+
+                <h3 class="font-bold">
+                    Focus Mix
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Stay focused
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-950 p-6 rounded-xl">
+
+                <h3 class="font-bold">
+                    Drive Mix
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Music for the road
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-950 p-6 rounded-xl">
+
+                <h3 class="font-bold">
+                    Night Mix
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Late-night sounds
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 6 ================= -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+        <p class="text-purple-400 font-semibold">
+            EXPLORE
+        </p>
+
+        <h2 class="text-3xl font-bold mt-2 mb-8">
+            More music
+        </h2>
+
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <a href="genres.html"
+               class="bg-gray-900 p-7 rounded-xl">
+
+                <h3 class="text-xl font-bold">
+                    Genres
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Explore different genres.
+                </p>
+
+            </a>
+
+
+            <a href="trending.html"
+               class="bg-gray-900 p-7 rounded-xl">
+
+                <h3 class="text-xl font-bold">
+                    Trending
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Hear what's popular.
+                </p>
+
+            </a>
+
+
+            <a href="new-releases.html"
+               class="bg-gray-900 p-7 rounded-xl">
+
+                <h3 class="text-xl font-bold">
+                    New Releases
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Find fresh music.
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 7 ================= -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto text-center">
+
+        <p class="text-purple-400 font-semibold">
+            DISCOVER
+        </p>
+
+        <h2 class="text-4xl font-bold mt-3">
+            There is always another song.
+        </h2>
+
+        <p class="text-gray-400
+                  max-w-xl mx-auto mt-4">
+
+            Let RHYTHMIC take you on
+            a musical journey.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FRAME 8 ================= -->
+
+<section class="py-20 px-6">
+
+    <div class="max-w-6xl mx-auto text-center">
+
+        <h2 class="text-4xl font-bold">
+            Start your radio journey.
+        </h2>
+
+        <a href="discover.html"
+           class="inline-block
+                  mt-6
+                  bg-purple-600
+                  hover:bg-purple-700
+                  px-6 py-3
+                  rounded-lg">
+
+            Discover Music
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="border-t border-gray-800">
+
+    <div class="max-w-6xl mx-auto
+                px-6 py-10">
+
+        <div class="grid md:grid-cols-4 gap-8">
+
+            <div>
+
+                <h2 class="text-2xl font-bold
+                           text-purple-400">
+
+                    RHYTHMIC
+
+                </h2>
+
+                <p class="text-gray-400 mt-3">
+                    Music for every mood.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Explore
+                </h3>
+
+                <div class="flex flex-col gap-2 mt-3">
+
+                    <a href="songs.html"
+                       class="text-gray-400">
+                        Songs
+                    </a>
+
+                    <a href="artists.html"
+                       class="text-gray-400">
+                        Artists
+                    </a>
+
+                    <a href="albums.html"
+                       class="text-gray-400">
+                        Albums
+                    </a>
+
+                    <a href="playlists.html"
+                       class="text-gray-400">
+                        Playlists
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Company
+                </h3>
+
+                <div class="flex flex-col gap-2 mt-3">
+
+                    <a href="about.html"
+                       class="text-gray-400">
+                        About
+                    </a>
+
+                    <a href="careers.html"
+                       class="text-gray-400">
+                        Careers
+                    </a>
+
+                    <a href="contact.html"
+                       class="text-gray-400">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Support
+                </h3>
+
+                <div class="flex flex-col gap-2 mt-3">
+
+                    <a href="help.html"
+                       class="text-gray-400">
+                        Help Center
+                    </a>
+
+                    <a href="premium.html"
+                       class="text-gray-400">
+                        Premium
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <p class="text-center text-gray-500
+                  border-t border-gray-800
+                  mt-8 pt-6">
+
+            © 2026 RHYTHMIC.
+            All rights reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>

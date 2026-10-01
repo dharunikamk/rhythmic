@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>RHYTHMIC | Library</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+
+<body class="bg-gray-950 text-white">
+
+
+<!-- ================================================= -->
+<!-- NAVBAR -->
+<!-- ================================================= -->
+
+<nav class="border-b border-gray-800">
+
+    <div class="max-w-6xl mx-auto
+                px-6 py-4
+                flex items-center
+                justify-between">
+
+
+        <a href="index.html"
+           class="text-3xl font-bold text-purple-400">
+
+            RHYTHMIC
+
+        </a>
+
+
+        <ul class="hidden lg:flex
+                   items-center
+                   space-x-6
+                   font-medium">
+
+            <li>
+                <a href="index.html"
+                   class="hover:text-purple-400">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="discover.html"
+                   class="hover:text-purple-400">
+                    Discover
+                </a>
+            </li>
+
+            <li>
+                <a href="library.html"
+                   class="text-purple-400">
+                    Library
+                </a>
+            </li>
+
+            <li>
+                <a href="songs.html"
+                   class="hover:text-purple-400">
+                    Songs
+                </a>
+            </li>
+
+            <li>
+                <a href="artists.html"
+                   class="hover:text-purple-400">
+                    Artists
+                </a>
+            </li>
+
+            <li>
+                <a href="albums.html"
+                   class="hover:text-purple-400">
+                    Albums
+                </a>
+            </li>
+
+            <li>
+                <a href="playlists.html"
+                   class="hover:text-purple-400">
+                    Playlists
+                </a>
+            </li>
+
+        </ul>
+
+
+        <a href="premium.html"
+           class="hidden lg:inline-block
+                  bg-purple-600
+                  hover:bg-purple-700
+                  px-5 py-2
+                  rounded-lg">
+
+            Go Premium
+
+        </a>
+
+
+        <label for="menuToggle"
+               class="lg:hidden
+                      flex flex-col
+                      gap-1.5
+                      cursor-pointer">
+
+            <span class="w-6 h-0.5 bg-white"></span>
+            <span class="w-6 h-0.5 bg-white"></span>
+            <span class="w-6 h-0.5 bg-white"></span>
+
+        </label>
+
+    </div>
+
+
+    <input type="checkbox"
+           id="menuToggle"
+           class="hidden peer">
+
+
+    <div class="hidden
+                peer-checked:block
+                lg:hidden
+                bg-gray-900
+                px-6 pb-6">
+
+        <div class="flex
+                    flex-col
+                    gap-4
+                    pt-4">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="discover.html">
+                Discover
+            </a>
+
+            <a href="library.html"
+               class="text-purple-400">
+                Library
+            </a>
+
+            <a href="songs.html">
+                Songs
+            </a>
+
+            <a href="artists.html">
+                Artists
+            </a>
+
+            <a href="albums.html">
+                Albums
+            </a>
+
+            <a href="playlists.html">
+                Playlists
+            </a>
+
+            <a href="premium.html"
+               class="bg-purple-600
+                      text-center
+                      px-5 py-2
+                      rounded-lg">
+
+                Go Premium
+
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 1 : LIBRARY HERO -->
+<!-- ================================================= -->
+
+<section class="py-20 px-6
+                bg-gradient-to-br
+                from-purple-950
+                to-gray-950">
+
+    <div class="max-w-6xl mx-auto">
+
+        <p class="text-purple-400
+                  font-semibold">
+
+            YOUR MUSIC
+
+        </p>
+
+
+        <h1 class="text-5xl
+                   md:text-6xl
+                   font-bold
+                   mt-4">
+
+            Your
+            <span class="text-purple-400">
+                Library.
+            </span>
+
+        </h1>
+
+
+        <p class="text-gray-400
+                  text-lg
+                  max-w-2xl
+                  mt-6">
+
+            Keep your favorite songs,
+            artists, albums and playlists
+            all in one place.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 2 : RECENTLY PLAYED -->
+<!-- ================================================= -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <div class="flex
+                    items-center
+                    justify-between
+                    mb-8">
+
+            <div>
+
+                <p class="text-purple-400
+                          font-semibold">
+
+                    RECENT
+
+                </p>
+
+                <h2 class="text-3xl
+                           font-bold
+                           mt-2">
+
+                    Recently played
+
+                </h2>
+
+            </div>
+
+
+            <a href="songs.html"
+               class="text-purple-400">
+
+                Browse songs →
+
+            </a>
+
+        </div>
+
+
+        <div class="grid
+                    md:grid-cols-3
+                    gap-6">
+
+
+            <a href="songs.html"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl">
+
+                <div class="h-36
+                            bg-purple-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-5xl">
+
+                    ♫
+
+                </div>
+
+                <h3 class="font-bold mt-4">
+                    Espresso
+                </h3>
+
+                <p class="text-gray-400 text-sm">
+                    Sabrina Carpenter
+                </p>
+
+            </a>
+
+
+            <a href="songs.html"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl">
+
+                <div class="h-36
+                            bg-pink-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-5xl">
+
+                    ♪
+
+                </div>
+
+                <h3 class="font-bold mt-4">
+                    Birds of a Feather
+                </h3>
+
+                <p class="text-gray-400 text-sm">
+                    Billie Eilish
+                </p>
+
+            </a>
+
+
+            <a href="songs.html"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl">
+
+                <div class="h-36
+                            bg-blue-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-5xl">
+
+                    ♬
+
+                </div>
+
+                <h3 class="font-bold mt-4">
+                    Beautiful Things
+                </h3>
+
+                <p class="text-gray-400 text-sm">
+                    Benson Boone
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 3 : FAVORITE SONGS -->
+<!-- ================================================= -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <p class="text-purple-400
+                  font-semibold">
+
+            FAVORITES
+
+        </p>
+
+
+        <h2 class="text-3xl
+                   font-bold
+                   mt-2
+                   mb-8">
+
+            Favorite songs
+
+        </h2>
+
+
+        <div class="space-y-4">
+
+
+            <div class="bg-gray-950
+                        rounded-xl
+                        p-5
+                        flex
+                        items-center
+                        justify-between">
+
+                <div class="flex
+                            items-center
+                            gap-4">
+
+                    <div class="w-12 h-12
+                                bg-purple-700
+                                rounded-lg
+                                flex
+                                items-center
+                                justify-center">
+
+                        ♫
+
+                    </div>
+
+                    <div>
+
+                        <h3 class="font-bold">
+                            Cruel Summer
+                        </h3>
+
+                        <p class="text-gray-400 text-sm">
+                            Taylor Swift
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <span class="text-gray-400">
+                    2:58
+                </span>
+
+            </div>
+
+
+            <div class="bg-gray-950
+                        rounded-xl
+                        p-5
+                        flex
+                        items-center
+                        justify-between">
+
+                <div class="flex
+                            items-center
+                            gap-4">
+
+                    <div class="w-12 h-12
+                                bg-pink-700
+                                rounded-lg
+                                flex
+                                items-center
+                                justify-center">
+
+                        ♪
+
+                    </div>
+
+                    <div>
+
+                        <h3 class="font-bold">
+                            As It Was
+                        </h3>
+
+                        <p class="text-gray-400 text-sm">
+                            Harry Styles
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <span class="text-gray-400">
+                    2:47
+                </span>
+
+            </div>
+
+
+            <div class="bg-gray-950
+                        rounded-xl
+                        p-5
+                        flex
+                        items-center
+                        justify-between">
+
+                <div class="flex
+                            items-center
+                            gap-4">
+
+                    <div class="w-12 h-12
+                                bg-blue-700
+                                rounded-lg
+                                flex
+                                items-center
+                                justify-center">
+
+                        ♬
+
+                    </div>
+
+                    <div>
+
+                        <h3 class="font-bold">
+                            Blinding Lights
+                        </h3>
+
+                        <p class="text-gray-400 text-sm">
+                            The Weeknd
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <span class="text-gray-400">
+                    3:20
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 4 : SAVED ALBUMS -->
+<!-- ================================================= -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <div class="flex
+                    items-center
+                    justify-between
+                    mb-8">
+
+            <h2 class="text-3xl
+                       font-bold">
+
+                Saved albums
+
+            </h2>
+
+
+            <a href="albums.html"
+               class="text-purple-400">
+
+                View albums →
+
+            </a>
+
+        </div>
+
+
+        <div class="grid
+                    grid-cols-2
+                    md:grid-cols-4
+                    gap-6">
+
+
+            <a href="albums.html">
+
+                <div class="h-48
+                            bg-purple-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-6xl">
+
+                    ♫
+
+                </div>
+
+                <h3 class="font-bold mt-4">
+                    Short n' Sweet
+                </h3>
+
+                <p class="text-gray-400 text-sm">
+                    Sabrina Carpenter
+                </p>
+
+            </a>
+
+
+            <a href="albums.html">
+
+                <div class="h-48
+                            bg-pink-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-6xl">
+
+                    ♪
+
+                </div>
+
+                <h3 class="font-bold mt-4">
+                    HIT ME HARD AND SOFT
+                </h3>
+
+                <p class="text-gray-400 text-sm">
+                    Billie Eilish
+                </p>
+
+            </a>
+
+
+            <a href="albums.html">
+
+                <div class="h-48
+                            bg-blue-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-6xl">
+
+                    ♬
+
+                </div>
+
+                <h3 class="font-bold mt-4">
+                    1989
+                </h3>
+
+                <p class="text-gray-400 text-sm">
+                    Taylor Swift
+                </p>
+
+            </a>
+
+
+            <a href="albums.html">
+
+                <div class="h-48
+                            bg-orange-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-6xl">
+
+                    ♫
+
+                </div>
+
+                <h3 class="font-bold mt-4">
+                    Starboy
+                </h3>
+
+                <p class="text-gray-400 text-sm">
+                    The Weeknd
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 5 : SAVED ARTISTS -->
+<!-- ================================================= -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <div class="flex
+                    items-center
+                    justify-between
+                    mb-8">
+
+            <h2 class="text-3xl
+                       font-bold">
+
+                Saved artists
+
+            </h2>
+
+
+            <a href="artists.html"
+               class="text-purple-400">
+
+                View artists →
+
+            </a>
+
+        </div>
+
+
+        <div class="grid
+                    grid-cols-2
+                    md:grid-cols-4
+                    gap-6">
+
+
+            <a href="artists.html"
+               class="text-center">
+
+                <div class="w-28 h-28
+                            mx-auto
+                            bg-purple-700
+                            rounded-full
+                            flex
+                            items-center
+                            justify-center
+                            text-3xl">
+
+                    TS
+
+                </div>
+
+                <h3 class="font-bold mt-4">
+                    Taylor Swift
+                </h3>
+
+                <p class="text-gray-400 text-sm">
+                    Pop
+                </p>
+
+            </a>
+
+
+            <a href="artists.html"
+               class="text-center">
+
+                <div class="w-28 h-28
+                            mx-auto
+                            bg-pink-700
+                            rounded-full
+                            flex
+                            items-center
+                            justify-center
+                            text-3xl">
+
+                    TW
+
+                </div>
+
+                <h3 class="font-bold mt-4">
+                    The Weeknd
+                </h3>
+
+                <p class="text-gray-400 text-sm">
+                    R&B
+                </p>
+
+            </a>
+
+
+            <a href="artists.html"
+               class="text-center">
+
+                <div class="w-28 h-28
+                            mx-auto
+                            bg-blue-700
+                            rounded-full
+                            flex
+                            items-center
+                            justify-center
+                            text-3xl">
+
+                    HS
+
+                </div>
+
+                <h3 class="font-bold mt-4">
+                    Harry Styles
+                </h3>
+
+                <p class="text-gray-400 text-sm">
+                    Pop
+                </p>
+
+            </a>
+
+
+            <a href="artists.html"
+               class="text-center">
+
+                <div class="w-28 h-28
+                            mx-auto
+                            bg-orange-700
+                            rounded-full
+                            flex
+                            items-center
+                            justify-center
+                            text-3xl">
+
+                    DE
+
+                </div>
+
+                <h3 class="font-bold mt-4">
+                    Dua Lipa
+                </h3>
+
+                <p class="text-gray-400 text-sm">
+                    Pop
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 6 : YOUR PLAYLISTS -->
+<!-- ================================================= -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <div class="flex
+                    items-center
+                    justify-between
+                    mb-8">
+
+            <h2 class="text-3xl
+                       font-bold">
+
+                Your playlists
+
+            </h2>
+
+
+            <a href="playlists.html"
+               class="text-purple-400">
+
+                View playlists →
+
+            </a>
+
+        </div>
+
+
+        <div class="grid
+                    md:grid-cols-3
+                    gap-6">
+
+
+            <a href="playlists.html"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl">
+
+                <div class="h-36
+                            bg-purple-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-5xl">
+
+                    ♫
+
+                </div>
+
+                <h3 class="font-bold
+                           text-xl
+                           mt-4">
+
+                    My Favorites
+
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    32 songs
+                </p>
+
+            </a>
+
+
+            <a href="playlists.html"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl">
+
+                <div class="h-36
+                            bg-pink-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-5xl">
+
+                    ♪
+
+                </div>
+
+                <h3 class="font-bold
+                           text-xl
+                           mt-4">
+
+                    Study Time
+
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    24 songs
+                </p>
+
+            </a>
+
+
+            <a href="playlists.html"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl">
+
+                <div class="h-36
+                            bg-blue-700
+                            rounded-xl
+                            flex
+                            items-center
+                            justify-center
+                            text-5xl">
+
+                    ♬
+
+                </div>
+
+                <h3 class="font-bold
+                           text-xl
+                           mt-4">
+
+                    Night Drive
+
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    18 songs
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 7 : LISTENING HISTORY -->
+<!-- ================================================= -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+
+        <p class="text-purple-400
+                  font-semibold">
+
+            HISTORY
+
+        </p>
+
+
+        <h2 class="text-3xl
+                   font-bold
+                   mt-2
+                   mb-8">
+
+            Your listening journey
+
+        </h2>
+
+
+        <div class="bg-gray-950
+                    rounded-2xl
+                    p-8
+                    grid
+                    md:grid-cols-3
+                    gap-8
+                    text-center">
+
+
+            <div>
+
+                <p class="text-4xl
+                          font-bold
+                          text-purple-400">
+
+                    128
+
+                </p>
+
+                <p class="text-gray-400 mt-2">
+                    Songs played
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <p class="text-4xl
+                          font-bold
+                          text-purple-400">
+
+                    24
+
+                </p>
+
+                <p class="text-gray-400 mt-2">
+                    Artists explored
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <p class="text-4xl
+                          font-bold
+                          text-purple-400">
+
+                    18
+
+                </p>
+
+                <p class="text-gray-400 mt-2">
+                    Albums discovered
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FRAME 8 : DISCOVER MORE -->
+<!-- ================================================= -->
+
+<section class="py-20 px-6">
+
+    <div class="max-w-6xl mx-auto
+                text-center">
+
+
+        <p class="text-purple-400
+                  font-semibold">
+
+            KEEP EXPLORING
+
+        </p>
+
+
+        <h2 class="text-4xl
+                   font-bold
+                   mt-3">
+
+            Your library is only
+            the beginning.
+
+        </h2>
+
+
+        <p class="text-gray-400
+                  mt-4">
+
+            Discover something new
+            and add it to your library.
+
+        </p>
+
+
+        <a href="discover.html"
+           class="inline-block
+                  mt-6
+                  bg-purple-600
+                  hover:bg-purple-700
+                  px-6 py-3
+                  rounded-lg">
+
+            Discover Music
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FOOTER -->
+<!-- ================================================= -->
+
+<footer class="border-t border-gray-800">
+
+    <div class="max-w-6xl mx-auto
+                px-6 py-10">
+
+        <div class="grid
+                    md:grid-cols-4
+                    gap-8">
+
+
+            <div>
+
+                <h2 class="text-2xl
+                           font-bold
+                           text-purple-400">
+
+                    RHYTHMIC
+
+                </h2>
+
+                <p class="text-gray-400 mt-3">
+                    Music for every mood.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Explore
+                </h3>
+
+                <div class="flex
+                            flex-col
+                            gap-2
+                            mt-3">
+
+                    <a href="songs.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Songs
+                    </a>
+
+                    <a href="artists.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Artists
+                    </a>
+
+                    <a href="albums.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Albums
+                    </a>
+
+                    <a href="playlists.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Playlists
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Company
+                </h3>
+
+                <div class="flex
+                            flex-col
+                            gap-2
+                            mt-3">
+
+                    <a href="about.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        About
+                    </a>
+
+                    <a href="careers.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Careers
+                    </a>
+
+                    <a href="contact.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Support
+                </h3>
+
+                <div class="flex
+                            flex-col
+                            gap-2
+                            mt-3">
+
+                    <a href="help.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Help Center
+                    </a>
+
+                    <a href="premium.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Premium
+                    </a>
+
+                    <a href="events.html"
+                       class="text-gray-400
+                              hover:text-purple-400">
+                        Events
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <p class="text-center
+                  text-gray-500
+                  border-t
+                  border-gray-800
+                  mt-8
+                  pt-6">
+
+            © 2026 RHYTHMIC.
+            All rights reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>

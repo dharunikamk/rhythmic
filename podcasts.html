@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>RHYTHMIC | Podcasts</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+
+<body class="bg-gray-950 text-white">
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<nav class="border-b border-gray-800">
+
+    <div class="max-w-6xl mx-auto px-6 py-4
+                flex items-center justify-between">
+
+        <!-- Logo -->
+
+        <a href="index.html"
+           class="text-3xl font-bold text-purple-400">
+
+            RHYTHMIC
+
+        </a>
+
+
+        <!-- Desktop Navigation -->
+
+        <ul class="hidden lg:flex
+                   items-center space-x-6
+                   font-medium">
+
+            <li>
+                <a href="index.html"
+                   class="hover:text-purple-400">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="discover.html"
+                   class="hover:text-purple-400">
+                    Discover
+                </a>
+            </li>
+
+            <li>
+                <a href="library.html"
+                   class="hover:text-purple-400">
+                    Library
+                </a>
+            </li>
+
+            <li>
+                <a href="songs.html"
+                   class="hover:text-purple-400">
+                    Songs
+                </a>
+            </li>
+
+            <li>
+                <a href="artists.html"
+                   class="hover:text-purple-400">
+                    Artists
+                </a>
+            </li>
+
+            <li>
+                <a href="albums.html"
+                   class="hover:text-purple-400">
+                    Albums
+                </a>
+            </li>
+
+            <li>
+                <a href="playlists.html"
+                   class="hover:text-purple-400">
+                    Playlists
+                </a>
+            </li>
+
+        </ul>
+
+
+        <!-- Premium Button -->
+
+        <a href="premium.html"
+           class="hidden lg:inline-block
+                  bg-purple-600
+                  hover:bg-purple-700
+                  px-5 py-2
+                  rounded-lg">
+
+            Go Premium
+
+        </a>
+
+
+        <!-- Mobile Menu -->
+
+        <label for="menuToggle"
+               class="lg:hidden flex flex-col
+                      gap-1.5 cursor-pointer">
+
+            <span class="w-6 h-0.5 bg-white"></span>
+            <span class="w-6 h-0.5 bg-white"></span>
+            <span class="w-6 h-0.5 bg-white"></span>
+
+        </label>
+
+    </div>
+
+
+    <!-- Hidden Checkbox -->
+
+    <input type="checkbox"
+           id="menuToggle"
+           class="hidden peer">
+
+
+    <!-- Mobile Navigation -->
+
+    <div class="hidden peer-checked:block
+                lg:hidden bg-gray-900
+                px-6 pb-6">
+
+        <div class="flex flex-col gap-4 pt-4">
+
+            <a href="index.html">Home</a>
+
+            <a href="discover.html">Discover</a>
+
+            <a href="library.html">Library</a>
+
+            <a href="songs.html">Songs</a>
+
+            <a href="artists.html">Artists</a>
+
+            <a href="albums.html">Albums</a>
+
+            <a href="playlists.html">Playlists</a>
+
+            <a href="premium.html"
+               class="bg-purple-600
+                      text-center
+                      px-5 py-2
+                      rounded-lg">
+
+                Go Premium
+
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =====================================================
+     FRAME 1 — HERO
+===================================================== -->
+
+<section class="py-20 px-6
+                bg-gradient-to-br
+                from-purple-950
+                to-gray-950">
+
+    <div class="max-w-6xl mx-auto">
+
+        <p class="text-purple-400 font-semibold">
+
+            RHYTHMIC PODCASTS
+
+        </p>
+
+
+        <h1 class="text-5xl md:text-6xl
+                   font-bold mt-4">
+
+            Stories worth
+            listening to.
+
+        </h1>
+
+
+        <p class="text-gray-400
+                  text-lg
+                  max-w-2xl
+                  mt-6">
+
+            Explore conversations, stories,
+            interviews and ideas from
+            creators around the world.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FRAME 2 — FEATURED PODCASTS
+===================================================== -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+        <p class="text-purple-400 font-semibold">
+
+            FEATURED
+
+        </p>
+
+
+        <h2 class="text-3xl font-bold mt-2 mb-8">
+
+            Popular podcasts
+
+        </h2>
+
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+
+            <!-- Podcast 1 -->
+
+            <a href="#"
+               class="bg-purple-900
+                      p-7
+                      rounded-xl
+                      hover:bg-purple-800">
+
+                <div class="text-5xl">
+                    🎙️
+                </div>
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-6">
+
+                    The Daily
+
+                </h3>
+
+                <p class="text-purple-200 mt-2">
+
+                    News and stories
+
+                </p>
+
+            </a>
+
+
+            <!-- Podcast 2 -->
+
+            <a href="#"
+               class="bg-gray-900
+                      p-7
+                      rounded-xl
+                      hover:bg-gray-800">
+
+                <div class="text-5xl">
+                    🎧
+                </div>
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-6">
+
+                    Modern Minds
+
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+
+                    Ideas and conversations
+
+                </p>
+
+            </a>
+
+
+            <!-- Podcast 3 -->
+
+            <a href="#"
+               class="bg-pink-900
+                      p-7
+                      rounded-xl
+                      hover:bg-pink-800">
+
+                <div class="text-5xl">
+                    🎤
+                </div>
+
+                <h3 class="text-xl
+                           font-bold
+                           mt-6">
+
+                    Creator Stories
+
+                </h3>
+
+                <p class="text-pink-200 mt-2">
+
+                    Stories behind creativity
+
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FRAME 3 — LATEST EPISODES
+===================================================== -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+        <h2 class="text-3xl font-bold mb-8">
+
+            Latest episodes
+
+        </h2>
+
+
+        <div class="space-y-4">
+
+
+            <a href="#"
+               class="flex items-center
+                      justify-between
+                      bg-gray-950
+                      p-5
+                      rounded-xl">
+
+                <div>
+
+                    <h3 class="font-bold">
+
+                        The Future of Music
+
+                    </h3>
+
+                    <p class="text-gray-400 text-sm">
+
+                        Episode 124 • 42 min
+
+                    </p>
+
+                </div>
+
+                <span class="text-purple-400">
+                    ▶
+                </span>
+
+            </a>
+
+
+            <a href="#"
+               class="flex items-center
+                      justify-between
+                      bg-gray-950
+                      p-5
+                      rounded-xl">
+
+                <div>
+
+                    <h3 class="font-bold">
+
+                        Building Creative Habits
+
+                    </h3>
+
+                    <p class="text-gray-400 text-sm">
+
+                        Episode 89 • 36 min
+
+                    </p>
+
+                </div>
+
+                <span class="text-purple-400">
+                    ▶
+                </span>
+
+            </a>
+
+
+            <a href="#"
+               class="flex items-center
+                      justify-between
+                      bg-gray-950
+                      p-5
+                      rounded-xl">
+
+                <div>
+
+                    <h3 class="font-bold">
+
+                        Inside the Studio
+
+                    </h3>
+
+                    <p class="text-gray-400 text-sm">
+
+                        Episode 56 • 51 min
+
+                    </p>
+
+                </div>
+
+                <span class="text-purple-400">
+                    ▶
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FRAME 4 — CATEGORIES
+===================================================== -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+        <p class="text-purple-400 font-semibold">
+
+            CATEGORIES
+
+        </p>
+
+
+        <h2 class="text-3xl font-bold mt-2 mb-8">
+
+            Explore by topic
+
+        </h2>
+
+
+        <div class="grid
+                    grid-cols-2
+                    md:grid-cols-4
+                    gap-5">
+
+
+            <a href="#"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl">
+
+                <h3 class="font-bold">
+                    Music
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Artists and songs
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl">
+
+                <h3 class="font-bold">
+                    Technology
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Tech and innovation
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl">
+
+                <h3 class="font-bold">
+                    Culture
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    People and culture
+                </p>
+
+            </a>
+
+
+            <a href="#"
+               class="bg-gray-900
+                      p-6
+                      rounded-xl">
+
+                <h3 class="font-bold">
+                    Business
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Ideas and careers
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FRAME 5 — CONTINUE LISTENING
+===================================================== -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+        <h2 class="text-3xl font-bold mb-8">
+
+            Continue listening
+
+        </h2>
+
+
+        <div class="bg-gray-950
+                    rounded-2xl
+                    p-8
+                    flex flex-col
+                    md:flex-row
+                    items-center
+                    justify-between
+                    gap-6">
+
+            <div>
+
+                <p class="text-purple-400
+                          font-semibold">
+
+                    YOUR PODCAST
+
+                </p>
+
+
+                <h3 class="text-2xl
+                           font-bold mt-2">
+
+                    The Creative Mind
+
+                </h3>
+
+
+                <p class="text-gray-400 mt-2">
+
+                    Episode 24 • 28 minutes remaining
+
+                </p>
+
+            </div>
+
+
+            <a href="#"
+               class="bg-purple-600
+                      hover:bg-purple-700
+                      px-6 py-3
+                      rounded-lg">
+
+                Continue
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FRAME 6 — MUSIC CONNECTION
+===================================================== -->
+
+<section class="py-16 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+        <div class="bg-gradient-to-r
+                    from-purple-900
+                    to-gray-900
+                    rounded-2xl
+                    p-10">
+
+            <p class="text-purple-300
+                      font-semibold">
+
+                MUSIC + STORIES
+
+            </p>
+
+
+            <h2 class="text-4xl
+                       font-bold
+                       mt-3">
+
+                From listening
+                to learning.
+
+            </h2>
+
+
+            <p class="text-gray-400
+                      max-w-xl
+                      mt-4">
+
+                Discover artists, stories
+                and ideas beyond the song.
+
+            </p>
+
+
+            <a href="discover.html"
+               class="inline-block
+                      mt-6
+                      bg-purple-600
+                      px-6 py-3
+                      rounded-lg">
+
+                Explore Discover
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FRAME 7 — CREATOR
+===================================================== -->
+
+<section class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+        <div class="text-center">
+
+            <p class="text-purple-400
+                      font-semibold">
+
+                FOR CREATORS
+
+            </p>
+
+
+            <h2 class="text-4xl
+                       font-bold
+                       mt-3">
+
+                Have a story to share?
+
+            </h2>
+
+
+            <p class="text-gray-400
+                      max-w-xl
+                      mx-auto
+                      mt-4">
+
+                RHYTHMIC gives creators
+                a place to share their
+                voice with listeners.
+
+            </p>
+
+
+            <a href="contact.html"
+               class="inline-block
+                      mt-6
+                      border
+                      border-purple-500
+                      px-6 py-3
+                      rounded-lg">
+
+                Get in Touch
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FRAME 8 — CTA
+===================================================== -->
+
+<section class="py-20 px-6">
+
+    <div class="max-w-6xl mx-auto text-center">
+
+        <h2 class="text-4xl font-bold">
+
+            Find your next
+            favorite podcast.
+
+        </h2>
+
+
+        <p class="text-gray-400 mt-4">
+
+            There is always another story
+            waiting to be heard.
+
+        </p>
+
+
+        <a href="discover.html"
+           class="inline-block
+                  mt-6
+                  bg-purple-600
+                  hover:bg-purple-700
+                  px-6 py-3
+                  rounded-lg">
+
+            Start Exploring
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="border-t border-gray-800">
+
+    <div class="max-w-6xl mx-auto
+                px-6 py-10">
+
+        <div class="grid md:grid-cols-4 gap-8">
+
+
+            <div>
+
+                <h2 class="text-2xl
+                           font-bold
+                           text-purple-400">
+
+                    RHYTHMIC
+
+                </h2>
+
+                <p class="text-gray-400 mt-3">
+
+                    Music for every mood.
+
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Explore
+                </h3>
+
+                <div class="flex flex-col gap-2 mt-3">
+
+                    <a href="songs.html"
+                       class="text-gray-400">
+                        Songs
+                    </a>
+
+                    <a href="artists.html"
+                       class="text-gray-400">
+                        Artists
+                    </a>
+
+                    <a href="albums.html"
+                       class="text-gray-400">
+                        Albums
+                    </a>
+
+                    <a href="playlists.html"
+                       class="text-gray-400">
+                        Playlists
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Company
+                </h3>
+
+                <div class="flex flex-col gap-2 mt-3">
+
+                    <a href="about.html"
+                       class="text-gray-400">
+                        About
+                    </a>
+
+                    <a href="careers.html"
+                       class="text-gray-400">
+                        Careers
+                    </a>
+
+                    <a href="contact.html"
+                       class="text-gray-400">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="font-bold">
+                    Support
+                </h3>
+
+                <div class="flex flex-col gap-2 mt-3">
+
+                    <a href="help.html"
+                       class="text-gray-400">
+                        Help Center
+                    </a>
+
+                    <a href="premium.html"
+                       class="text-gray-400">
+                        Premium
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <p class="text-center
+                  text-gray-500
+                  border-t
+                  border-gray-800
+                  mt-8
+                  pt-6">
+
+            © 2026 RHYTHMIC.
+            All rights reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
